@@ -1,0 +1,15 @@
+// https://developers.facebook.com/docs/sharing/webmasters/
+
+<meta property="og:url"                content="http://webdomain.url/the_page" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="[Meta Title]" />
+<meta property="og:description"        content="[Meta Description]" />
+<meta property="og:image"              content="[Meta Image]" />
+
+//https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="http://webdomain.url/the_page" />
+<meta name="twitter:title" content="[Meta Title]" />
+<meta name="twitter:description" content="[Meta Description]" />
+<meta name="twitter:image" content="[Meta Image]" />
