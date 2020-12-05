@@ -13,3 +13,9 @@
 <meta name="twitter:title" content="[Meta Title]" />
 <meta name="twitter:description" content="[Meta Description]" />
 <meta name="twitter:image" content="[Meta Image]" />
+
+Moar:
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@carolinecblaker" />
+    <meta name="twitter:creator" content= "@artnweb" />
+    
