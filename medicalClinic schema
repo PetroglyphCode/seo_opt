@@ -1,31 +1,32 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Restaurant",
+  "@type": "MedicalClinic",
+  "medicalSpecialty":"psychiatric",
+  "isAcceptingNewPatients":"yes",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Sunnyvale",
-    "addressRegion": "CA",
-    "postalCode": "94086",
-    "streetAddress": "1901 Lemur Ave"
+    "addressLocality": "{{location.city}}",
+    "addressRegion": "{{location.state}}",
+    "postalCode": "{{location.zip}}",
+    "streetAddress": "{{location.address}}"
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4",
-    "reviewCount": "250"
-  },
-  "name": "GreatFood",
+  "name": "{{site_name}}",
+  "founder": {{user.screenname.id('23'}},
+  "latitude": "{{location.latitude}}",
+  "latitude": "{{location.longitude}}",
+  "paymentAccepted":"Cash, Check, Credit Card",
   "openingHours": [
     "Mo-Sa 11:00-14:30",
     "Mo-Th 17:00-21:30",
     "Fr-Sa 17:00-22:00"
   ],
-  "priceRange": "$$",
+  "priceRange": "$",
   "servesCuisine": [
     "Middle Eastern",
     "Mediterranean"
   ],
-  "telephone": "(408) 714-1489",
-  "url": "http://www.greatfood.com"
+  "telephone": "{{defaultVars.phone}}",
+  "url": "{{site_url}}"
 }
 </script>
