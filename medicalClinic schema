@@ -22,10 +22,6 @@
     "Fr-Sa 17:00-22:00"
   ],
   "priceRange": "$",
-  "servesCuisine": [
-    "Middle Eastern",
-    "Mediterranean"
-  ],
   "telephone": "{{defaultVars.phone}}",
   "url": "{{site_url}}"
 }
